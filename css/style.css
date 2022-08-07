@@ -4,6 +4,8 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: minmax(100px, auto);
+    border: #000000 solid 5px;
+    border-radius: 25px;
 }
 
 #retrocesoBtn, #igualBtn{
@@ -11,6 +13,9 @@
 }
 
 #Pantalla{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     grid-column: 1/5;
 }
 
