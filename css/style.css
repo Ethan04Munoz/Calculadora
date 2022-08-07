@@ -1,0 +1,36 @@
+#ContenerCalculadora{
+    width: 40%;
+    margin-left: 30%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+}
+
+#retrocesoBtn, #igualBtn{
+    grid-column: 3/5;
+}
+
+#Pantalla{
+    grid-column: 1/5;
+}
+
+h1{
+    text-align: center;
+}
+
+.boton{
+    font-size: 1.5rem;
+    background: #bfbfbf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton:hover{
+    border: #a82e2e 2px solid;
+}
+
+*{
+    font-size: 1.3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
